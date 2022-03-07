@@ -1,0 +1,56 @@
+/* Configuracion de fuente */
+@font-face {
+    font-family: letraIdaWeb;
+    src: url(fonts/otf/SFNSDisplay-Light.otf);
+}
+
+* {
+    font-family: letraIdaWeb;
+}
+
+/* Configuracion de NavBar */
+nav .nav-wrapper a img {
+    width: 50px;
+    padding-top: 6px;
+}
+
+.sidenav a img {
+    margin-left: 105px;
+}
+
+/* Configuracion cuerpo servicios*/
+.cuerpoPresentacionServicio {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Configuracion de Nosotros */
+#cardNosotros {
+    background-color: white;
+    border: 0 solid;
+    border-radius: 10px;
+    padding: 2%;
+}
+
+/* Configuracion de footer */
+.page-footer .listFooter {
+    padding-left: 0;
+}
+
+iframe {
+    width: 150%;
+    border-radius: 10px;
+}
+
+#imagenFooter {
+    width: 125px;
+}
+
+.page-footer ul li {
+    padding: 10px;
+    padding-left: 100px;
+}
+
+.page-footer ul li a img {
+    margin-right: 10px;
+}
