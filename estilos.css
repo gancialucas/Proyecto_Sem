@@ -33,6 +33,22 @@ nav .nav-wrapper a img {
 }
 
 /* Configuracion de footer */
+h3, .contactoFooter {
+    margin-bottom: 0;
+}
+
+p, .contactoFooter{
+    margin-top: 0;
+}
+
+h5, .contactoFooter {
+    margin-top: 0;
+}
+
+.contactoFooterNos{
+    margin-bottom: 0;
+}
+
 .page-footer .listFooter {
     padding-left: 0;
 }
