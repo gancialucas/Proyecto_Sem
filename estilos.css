@@ -1,11 +1,11 @@
 /* Configuracion de fuente */
 @font-face {
-    font-family: letraIdaWeb;
+    font-family: letraSEMWeb;
     src: url(fonts/otf/SFNSDisplay-Light.otf);
 }
 
 * {
-    font-family: letraIdaWeb;
+    font-family: letraSEMWeb;
 }
 
 /* Configuracion de NavBar */
