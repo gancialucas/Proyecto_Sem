@@ -9,8 +9,14 @@
 }
 
 /* Configuracion de NavBar */
+/* AGREGAR EN HTML p/ más grande: style="height: 100px;"
+nav ul {
+    padding-top: 20px;
+} */
+
 nav .nav-wrapper a img {
-    width: 200px;
+    /* ACOMPAÑA AL NAVBAR GRANDE: width: 270px; */
+    width: 175px;
     padding-top: 6px;
 }
 
@@ -25,6 +31,15 @@ nav .nav-wrapper a img {
 }
 
 /* Configuracion de Nosotros */
+#nosotros {
+    background: #007991;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #007991);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 #cardNosotros {
     background-color: white;
     border: 0 solid;
@@ -33,19 +48,22 @@ nav .nav-wrapper a img {
 }
 
 /* Configuracion de footer */
-h3, .contactoFooter {
+h3,
+.contactoFooter {
     margin-bottom: 0;
 }
 
-p, .contactoFooter{
+p,
+.contactoFooter {
     margin-top: 0;
 }
 
-h5, .contactoFooter {
+h5,
+.contactoFooter {
     margin-top: 0;
 }
 
-.contactoFooterNos{
+.contactoFooterNos {
     margin-bottom: 0;
 }
 
