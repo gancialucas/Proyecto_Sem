@@ -30,6 +30,16 @@ nav .nav-wrapper a img {
 }
 
 /* Configuracion cuerpo servicios*/
+.configSubservicio {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.presentacionService {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 .cuerpoPresentacionServicio {
     margin-top: 0;
     margin-bottom: 0;
