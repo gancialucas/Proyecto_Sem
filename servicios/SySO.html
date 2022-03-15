@@ -36,7 +36,7 @@
 <body>
     <!-- NAVBAR -->
     <header>
-        <nav class="navbar-fixed">
+        <nav class="navbar-fixed hide-on-med-and-down">
             <nav class="white navbarConfig">
                 <div class="nav-wrapper container">
                     <a href="../index.html" class="brand-logo"><img class="responsive-img"
@@ -50,6 +50,16 @@
             </nav>
         </nav>
 
+        <!-- NAVBAR PARA MOBILE -->
+        <nav class="navbar-fixed white hide-on-med-and-up">
+            <div class="nav-wrapper container">
+                <a href="index.html" class="brand-logo"><img class="responsive-img"
+                        src="images/semServiciosProfesionalesLogo.png" alt="logoSEM"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i
+                        class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        
         <ul class="sidenav" id="mobile-demo">
             <li class="center">
                 <div class="user-view">
@@ -132,6 +142,7 @@
 
     <!-- FOOTER -->
     <footer id="contactos" class="page-footer" style="background-color: #1e88e5;">
+        <br><br>
         <div class="container">
             <div class="row">
                 <div class="center container">
