@@ -36,19 +36,31 @@
 <body>
     <!-- NAVBAR -->
     <header>
-        <nav class="white">
-            <div class="nav-wrapper">
-                <a href="index.html" class="brand-logo"><img class="responsive-img"
-                        src="images/semServiciosProfesionalesLogo.png" alt="logoSEM"></a>
+        <nav class="navbar-fixed hide-on-med-and-down">
+            <nav class="white navbarConfig">
+                <div class="nav-wrapper container">
+                    <a href="index.html" class="brand-logo"><img class="responsive-img"
+                            src="images/semServiciosProfesionalesLogo.png" alt="logoSEM"></a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i
+                            class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a class="blue-text aFontSize" href="index.html">Inicio</a></li>
+                        <li><a class="blue-text aFontSize" href="#servicios">Servicios</a></li>
+                        <li><a class="blue-text aFontSize" href="#nosotros">Nosotros</a></li>
+                        <li><a class="blue-text aFontSize" href="#clientes">Clientes</a></li>
+                        <li><a class="blue-text aFontSize" href="#contactos">Contactos</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </nav>
+
+        <!-- NAVBAR PARA MOBILE -->
+        <nav class="navbar-fixed white hide-on-med-and-up">
+            <div class="nav-wrapper container">
+                <a href="index.html" class="brand-logo logo"><img class="responsive-img" src="images/nuevoLogo.png"
+                        style="width: 45px;" alt="logoSEM"></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i
                         class="material-icons">menu</i></a>
-                <ul class="right hide-on-med-and-down">
-                    <li><a class="blue-text" href="index.html">Inicio</a></li>
-                    <li><a class="blue-text" href="#servicios">Servicios</a></li>
-                    <li><a class="blue-text" href="#nosotros">Nosotros</a></li>
-                    <li><a class="blue-text" href="#clientes">Clientes</a></li>
-                    <li><a class="blue-text" href="#contactos">Contactos</a></li>
-                </ul>
             </div>
         </nav>
 
@@ -64,11 +76,21 @@
                 </div>
             </li>
 
-            <li class=" teal lighten-5"><a class="blue-text" href="index.html">Inicio</a></li>
-            <li><a class="blue-text" href="#servicios">Servicios</a></li>
-            <li class=" teal lighten-5"><a class="blue-text" href="#nosotros">Nosotros</a></li>
-            <li><a class="blue-text" href="#clientes">Clientes</a></li>
-            <li class=" teal lighten-5"><a class="blue-text" href="#contactos">Contactos</a></li>
+            <blockquote class="blockquote">
+                <li><a style="padding-left: 0;" href="index.html">Inicio</a></li>
+            </blockquote>
+            <blockquote class="blockquote">
+                <li><a style="padding-left: 0;" href="#servicios">Servicios</a></li>
+            </blockquote>
+            <blockquote class="blockquote">
+                <li><a style="padding-left: 0;" href="#nosotros">Nosotros</a></li>
+            </blockquote>
+            <blockquote class="blockquote">
+                <li><a style="padding-left: 0;" href="#clientes">Clientes</a></li>
+            </blockquote>
+            <blockquote class="blockquote">
+                <li><a style="padding-left: 0;" href="#contactos">Contactos</a></li>
+            </blockquote>
         </ul>
     </header>
 
@@ -101,28 +123,32 @@
         <!-- CARTA P/ SERVICIOS -->
         <div class="row container">
             <div class="col s12 m6">
-                <div class="card">
+                <div class="card hoverable">
                     <div class="card-image">
                         <img src="images/imgSlideIngenieria.png">
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                        <a href="servicios/SySO.html"
+                            class="btn-floating halfway-fab waves-effect waves-light blue btn-large"><i
                                 class="material-icons">add</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title">Card Title</span>
+                        <span class="card-title cuerpoPresentacionServicio">Seguridad y Salud Ocupacional</span>
+                        <h5 class="cuerpoPresentacionServicio">_____________________</h5><br>
                         <p>I am a very simple card. I am good at containing small bits of information. I am convenient
                             because I require little markup to use effectively.</p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6">
-                <div class="card">
+                <div class="card hoverable">
                     <div class="card-image">
                         <img src="images/imgSlideIngenieria.png">
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                        <a href="servicios/normasISO.html"
+                            class="btn-floating halfway-fab waves-effect waves-light blue btn-large"><i
                                 class="material-icons">add</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title">Card Title</span>
+                        <span class="card-title cuerpoPresentacionServicio">Gestion normas ISO</span>
+                        <h5 class="cuerpoPresentacionServicio">_____________________</h5><br>
                         <p>I am a very simple card. I am good at containing small bits of information. I am
                             convenient because I require little markup to use effectively.</p>
                     </div>
@@ -132,28 +158,32 @@
 
         <div class="row container">
             <div class="col s12 m6">
-                <div class="card">
+                <div class="card hoverable">
                     <div class="card-image">
                         <img src="images/imgSlideIngenieria.png">
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                        <a href="servicios/gestionAmbiental.html"
+                            class="btn-floating halfway-fab waves-effect waves-light blue btn-large"><i
                                 class="material-icons">add</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title">Card Title</span>
+                        <span class="card-title cuerpoPresentacionServicio">Gestion Ambiental</span>
+                        <h5 class="cuerpoPresentacionServicio">_____________________</h5><br>
                         <p>I am a very simple card. I am good at containing small bits of information. I am convenient
                             because I require little markup to use effectively.</p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6">
-                <div class="card">
+                <div class="card hoverable">
                     <div class="card-image">
                         <img src="images/imgSlideIngenieria.png">
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i
+                        <a href="servicios/ingenieria.html"
+                            class="btn-floating halfway-fab waves-effect waves-light blue btn-large"><i
                                 class="material-icons">add</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title">Card Title</span>
+                        <span class="card-title cuerpoPresentacionServicio">Ingeniería</span>
+                        <h5 class="cuerpoPresentacionServicio">________</h5><br>
                         <p>I am a very simple card. I am good at containing small bits of information. I am
                             convenient because I require little markup to use effectively.</p>
                     </div>
@@ -162,7 +192,7 @@
         </div>
 
         <!-- NOSOTROS -->
-        <div id="nosotros" class="blue lighten-3">
+        <div id="nosotros">
             <br><br>
             <div class="container center">
                 <div class="row">
@@ -172,8 +202,8 @@
                 </div>
                 <div class="row">
                     <div class="col s12">
-                        <h4 class="cuerpoPresentacionServicio"><b><span class="blue-text text-darken-4">Nuestro</span>
-                                Personal</h4></b>
+                        <h4 class="cuerpoPresentacionServicio"><b><span class="blue-text">Nuestro</span> Personal</h4>
+                        </b>
                         <h2 class="white-text cuerpoPresentacionServicio">________</h2>
                     </div>
                 </div>
@@ -181,29 +211,64 @@
             <br>
 
             <div id="cardNosotros" class="container z-depth-3">
-                <h6 class="center">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aliquam saepe officia nobis,
-                    voluptatem nisi rem deleniti dolore, sint at autem libero. Eligendi, labore facilis similique quod
-                    mollitia ut reiciendis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, nam cum
-                    omnis veritatis, eos voluptates aut neque aliquid, odio atque quisquam deserunt ab architecto fugiat
-                    necessitatibus assumenda placeat. Aspernatur, delectus.
-                </h6>
+                <div class="row">
+                    <h6>
+                        Somos una <b class="grey-text text-darken-1">empresa dedicada a brindar asesoramiento en materia
+                            de
+                            Seguridad y Salud Ocupacional, Medio Ambiente, Calidad y Servicios de
+                            Ingeniería</b> en general a empresas de diferentes rubros y/o actividades,
+                        buscando a través de nuestro servicio acompañar al crecimiento de sus
+                        unidades de negocio.<br><br>Con llegada a toda la región, tenemos como <b
+                            class="grey-text text-darken-1">principal objetivo ser
+                            una
+                            herramienta útil a las empresas para la optimización y continuidad de sus
+                            negocios</b>, calidad de sus productos y/o servicios y disminuir pérdidas
+                        derivadas de accidentes o enfermedades profesionales.
+                    </h6>
+                </div>
+
+                <div class="row hide-on-med-and-down">
+                    <div class="col s4">
+                        <h5 class="card-title blue-text"><b>Misión</b></h5>
+                        <h5 class="cuerpoPresentacionServicio">________</h5><br>
+                        <span>Ofrecer un servicio que brinde soluciones a nuestros clientes, que
+                            aporte al desarrollo y al crecimiento sostenible de las unidades de
+                            negocios y que cumpla con sus necesidades y expectativas.</span>
+                    </div>
+                    <div class="col s4">
+                        <h5 class="card-title blue-text"><b>Visión</b></h5>
+                        <h5 class="cuerpoPresentacionServicio">________</h5><br>
+                        <span>Ser considerados por las empresas y aliados estratégicos como una
+                            opción viable, que ofrece soluciones y servicios basados
+                            principalmente en la calidad y excelencia en la gestión.</span>
+                    </div>
+                    <div class="col s4">
+                        <h5 class="card-title blue-text"><b>Valores</b></h5>
+                        <h5 class="cuerpoPresentacionServicio">________</h5><br>
+                        <span>Excelencia en la Gestión; Adaptabilidad a la cultura de cada
+                            organización; Profesionalismo y Compromiso; Ética en el desarrollo
+                            de las actividades; Esfuerzo y Respeto.</span>
+                    </div>
+                </div>
             </div>
 
             <div class="center"><br><br>
                 <div class="row container">
                     <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card hoverable">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="images/marceloPrez.jpg">
                             </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Marcelo Perez<i
-                                        class="material-icons right">more_vert</i></span>
-                                <p><a href="#">Correo electrónico</a></p>
+                            <div class="card-content left-align">
+                                <span class="card-title activator grey-text text-darken-4"
+                                    style="font-size: 30px;">Marcelo Prez<i
+                                        class="material-icons right blue-text small">arrow_upward</i></span>
+                                <p><a href="#">correoelectronico@gmail.com</a></p>
                             </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Información Personal</span>
+                            <div class="card-reveal left-align">
+                                <span class="card-title grey-text text-darken-4">+ información<i
+                                        class="material-icons right blue-text small">arrow_downward</i></span>
+                                <br>
                                 <p>
                                     Here is some more information about this product that is only revealed once clicked
                                     on.
@@ -213,16 +278,20 @@
                     </div>
 
                     <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card hoverable">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="images/marceloPrez.jpg">
                             </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Marcelo Perez</span>
-                                <p><a href="#">Correo electrónico</a></p>
+                            <div class="card-content left-align">
+                                <span class="card-title activator grey-text text-darken-4"
+                                    style="font-size: 30px;">Marcelo Prez<i
+                                        class="material-icons right blue-text small">arrow_upward</i></span>
+                                <p><a href="#">correoelectronico@gmail.com</a></p>
                             </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Información Personal</span>
+                            <div class="card-reveal left-align">
+                                <span class="card-title grey-text text-darken-4">+ información<i
+                                        class="material-icons right blue-text small">arrow_downward</i></span>
+                                <br>
                                 <p>
                                     Here is some more information about this product that is only revealed once clicked
                                     on.
@@ -232,16 +301,20 @@
                     </div>
 
                     <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card hoverable">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="images/marceloPrez.jpg">
                             </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Marcelo Perez</span>
-                                <p><a href="#">Correo electrónico</a></p>
+                            <div class="card-content left-align">
+                                <span class="card-title activator grey-text text-darken-4"
+                                    style="font-size: 30px;">Marcelo Prez<i
+                                        class="material-icons right blue-text small">arrow_upward</i></span>
+                                <p><a href="#">correoelectronico@gmail.com</a></p>
                             </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Información Personal</span>
+                            <div class="card-reveal left-align">
+                                <span class="card-title grey-text text-darken-4">+ información<i
+                                        class="material-icons right blue-text small">arrow_downward</i></span>
+                                <br>
                                 <p>
                                     Here is some more information about this product that is only revealed once clicked
                                     on.
@@ -283,6 +356,7 @@
 
     <!-- FOOTER -->
     <footer id="contactos" class="page-footer" style="background-color: #1e88e5;">
+        <br>
         <div class="container">
             <div class="row">
                 <div class="center container">
@@ -353,7 +427,7 @@
             });
         });
     </script>
-
+    
     <!-- Tabs -->
     <script>
         var instance = M.Tabs.init(el, {
