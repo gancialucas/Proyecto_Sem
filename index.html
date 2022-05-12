@@ -58,7 +58,7 @@
         <nav class="navbar-fixed white hide-on-med-and-up">
             <div class="nav-wrapper container">
                 <a href="index.html" class="brand-logo logo"><img class="responsive-img" src="images/nuevoLogo.png"
-                        style="width: 45px;" alt="logoSEM"></a>
+                        style="width: 40px;" alt="logoSEM"></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text"><i
                         class="material-icons">menu</i></a>
             </div>
@@ -97,8 +97,15 @@
     <!-- INICIO -->
     <main>
         <!-- CAROUSEL -->
-        <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#!"><img src="images/imgSlide1.png" /></a>
+        <div class="carousel carousel-slider hide-on-med-and-down">
+            <a class="carousel-item" href="#!"><img src="images/imgSlide1.png" height="600px"/></a>
+            <a class="carousel-item" href="#!"><img src="images/imgSlide2.png" height="600px" /></a>
+            <a class="carousel-item" href="#!"><img src="images/imgSlide3.png" height="600px" /></a>
+        </div>
+
+        <!-- MOBILE -->
+        <div class="carousel carousel-slider hide-on-med-and-up">
+            <a class="carousel-item" href="#!"><img src="images/imgSlide1.png"/></a>
             <a class="carousel-item" href="#!"><img src="images/imgSlide2.png" /></a>
             <a class="carousel-item" href="#!"><img src="images/imgSlide3.png" /></a>
         </div>
@@ -132,25 +139,30 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title cuerpoPresentacionServicio">Seguridad y Salud Ocupacional</span>
-                        <h5 class="cuerpoPresentacionServicio">_____________________</h5><br>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                            because I require little markup to use effectively.</p>
+                        <h5 class="cuerpoPresentacionServicio hide-on-med-and-down">______________________________</h5>
+                        <h5 class="cuerpoPresentacionServicio hide-on-med-and-up">__________________</h5><br>
+                        <p>Permitir a una organización proporcionar lugares de trabajo seguros y saludables, prevenir
+                            lesiones y deterioro de la salud, relacionados con el trabajo y mejorar continuamente su
+                            desempeño</p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6">
                 <div class="card hoverable">
                     <div class="card-image">
-                        <img src="images/imgSlideIngenieria.png">
+                        <img src="images/NormasISO.jpeg">
                         <a href="servicios/normasISO.html"
                             class="btn-floating halfway-fab waves-effect waves-light blue btn-large"><i
                                 class="material-icons">add</i></a>
                     </div>
                     <div class="card-content">
                         <span class="card-title cuerpoPresentacionServicio">Gestion normas ISO</span>
-                        <h5 class="cuerpoPresentacionServicio">_____________________</h5><br>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am
-                            convenient because I require little markup to use effectively.</p>
+                        <h5 class="cuerpoPresentacionServicio">___________________</h5><br>
+                        <p>Experiencia en implementación, seguimiento y
+                            auditorias de certificación de Sistemas de Gestión de Seguridad y Salud Ocupacional (ISO
+                            45001), Calidad (ISO 9001) y
+                            Medio Ambiente (ISO14001)
+                        </p>
                     </div>
                 </div>
             </div>
@@ -160,32 +172,36 @@
             <div class="col s12 m6">
                 <div class="card hoverable">
                     <div class="card-image">
-                        <img src="images/imgSlideIngenieria.png">
+                        <img src="images/GestionAmbiental.jpeg">
                         <a href="servicios/gestionAmbiental.html"
                             class="btn-floating halfway-fab waves-effect waves-light blue btn-large"><i
                                 class="material-icons">add</i></a>
                     </div>
                     <div class="card-content">
                         <span class="card-title cuerpoPresentacionServicio">Gestion Ambiental</span>
-                        <h5 class="cuerpoPresentacionServicio">_____________________</h5><br>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                            because I require little markup to use effectively.</p>
+                        <h5 class="cuerpoPresentacionServicio">_________________</h5><br>
+                        <p> Asesoría técnica y legal en temas de medio ambiente, ofreciendo las herramientas para
+                            afrontar tanto los requerimientos legales como las necesidades internas de la organización.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col s12 m6">
                 <div class="card hoverable">
                     <div class="card-image">
-                        <img src="images/imgSlideIngenieria.png">
-                        <a href="servicios/ingenieria.html"
+                        <img src="images/Mediciones.jpg">
+                        <a href="servicios/medicion.html"
                             class="btn-floating halfway-fab waves-effect waves-light blue btn-large"><i
                                 class="material-icons">add</i></a>
                     </div>
                     <div class="card-content">
-                        <span class="card-title cuerpoPresentacionServicio">Ingeniería</span>
-                        <h5 class="cuerpoPresentacionServicio">________</h5><br>
-                        <p>I am a very simple card. I am good at containing small bits of information. I am
-                            convenient because I require little markup to use effectively.</p>
+                        <span class="card-title cuerpoPresentacionServicio">Mediciones</span>
+                        <h5 class="cuerpoPresentacionServicio">__________</h5><br>
+                        <p> A través de las distintas mediciones en los ambientes de trabajo podemos determinar si los
+                            trabajadores se encuentran
+                            expuestos, y en que medida, a distintos agentes de riesgos, los cuales pueden ser
+                            perjudiciales para la salud.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -212,9 +228,10 @@
 
             <div id="cardNosotros" class="container z-depth-3">
                 <div class="row">
-                    <h5 class="card-title blue-text"><b>Acerca De Nosotros</b></h5>
-                    <h5 class="cuerpoPresentacionServicio">________</h5><br>
-                    <h6>
+                    <h5 class="card-title blue-text hide-on-med-and-down"><b>Acerca De Nosotros</b></h5>
+                    <h5 class="cuerpoPresentacionServicio hide-on-med-and-down">________</h5><br>
+
+                    <h6 class="hide-on-med-and-down">
                         Somos una <b class="grey-text text-darken-1">empresa dedicada a brindar asesoramiento en materia
                             de
                             Seguridad y Salud Ocupacional, Medio Ambiente, Calidad y Servicios de
@@ -227,26 +244,43 @@
                             negocios</b>, calidad de sus productos y/o servicios y disminuir pérdidas
                         derivadas de accidentes o enfermedades profesionales.
                     </h6>
+
+                    <!-- MOBILE -->
+                    <h6 class="container hide-on-med-and-up">
+                        Somos una <b class="grey-text text-darken-1">empresa dedicada a brindar asesoramiento en materia
+                            de Seguridad y Salud Ocupacional, Medio Ambiente, Calidad y Servicios de
+                            Ingeniería</b> en general a empresas de diferentes rubros y/o actividades,
+                        buscando a través de nuestro servicio acompañar al crecimiento de sus
+                        unidades de negocio.<br><br>Con llegada a toda la región, tenemos como <b
+                            class="grey-text text-darken-1">principal objetivo ser una herramienta útil a las empresas
+                            para la optimización y continuidad de sus
+                            negocios</b>, calidad de sus productos y/o servicios y disminuir pérdidas
+                        derivadas de accidentes o enfermedades profesionales.
+                    </h6>
                 </div>
 
-                <div class="row hide-on-med-and-down">
-                    <div class="col s4">
+                <br>
+                
+                <div class="row hide-on-med-and-down center">
+                    <div class="col s4" style="border-right: 1px solid; border-color: gray;">
                         <h5 class="card-title blue-text"><b>Misión</b></h5>
-                        <h5 class="cuerpoPresentacionServicio">________</h5><br>
+                        <br>
                         <span>Ofrecer un servicio que brinde soluciones a nuestros clientes, que
                             aporte al desarrollo y al crecimiento sostenible de las unidades de
                             negocios y que cumpla con sus necesidades y expectativas.</span>
                     </div>
-                    <div class="col s4">
+
+                    <div class="col s4" style="border-right: 1px solid; border-color: gray;">
                         <h5 class="card-title blue-text"><b>Visión</b></h5>
-                        <h5 class="cuerpoPresentacionServicio">________</h5><br>
+                        <br>
                         <span>Ser considerados por las empresas y aliados estratégicos como una
                             opción viable, que ofrece soluciones y servicios basados
                             principalmente en la calidad y excelencia en la gestión.</span>
                     </div>
+
                     <div class="col s4">
                         <h5 class="card-title blue-text"><b>Valores</b></h5>
-                        <h5 class="cuerpoPresentacionServicio">________</h5><br>
+                        <br>
                         <span>Excelencia en la Gestión; Adaptabilidad a la cultura de cada
                             organización; Profesionalismo y Compromiso; Ética en el desarrollo
                             de las actividades; Esfuerzo y Respeto.</span>
@@ -259,13 +293,13 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="images/marceloPrez.jpg">
+                                <img class="activator" src="images/marceloPrez.jpg" style="height: 435px;">
                             </div>
                             <div class="card-content left-align">
                                 <span class="card-title activator grey-text text-darken-4"
-                                    style="font-size: 30px;">Marcelo Prez<i
+                                    style="font-size: 21px;">Marcelo Prez<i
                                         class="material-icons right blue-text small">arrow_upward</i></span>
-                                <p><a href="#">correoelectronico@gmail.com</a></p>
+                                <p><a href="#">marceloprez@outlook.com.ar</a></p>
                             </div>
                             <div class="card-reveal left-align">
                                 <span class="card-title grey-text text-darken-4">+ información<i
@@ -282,13 +316,13 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="images/marceloPrez.jpg">
+                                <img class="activator" src="images/EmmanuelSponton.png" style="height: 435px;">
                             </div>
                             <div class="card-content left-align">
                                 <span class="card-title activator grey-text text-darken-4"
-                                    style="font-size: 30px;">Marcelo Prez<i
+                                    style="font-size: 21px;">Emanuel Sponton<i
                                         class="material-icons right blue-text small">arrow_upward</i></span>
-                                <p><a href="#">correoelectronico@gmail.com</a></p>
+                                <p><a href="#">spontonemanuel@gmail.com</a></p>
                             </div>
                             <div class="card-reveal left-align">
                                 <span class="card-title grey-text text-darken-4">+ información<i
@@ -305,13 +339,13 @@
                     <div class="col s12 m4">
                         <div class="card hoverable">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="images/marceloPrez.jpg">
+                                <img class="activator" src="images/sebastianAmbroggio (1).png" style="height: 435px;">
                             </div>
                             <div class="card-content left-align">
                                 <span class="card-title activator grey-text text-darken-4"
-                                    style="font-size: 30px;">Marcelo Prez<i
+                                    style="font-size: 21px;">Sebastian Ambroggio<i
                                         class="material-icons right blue-text small">arrow_upward</i></span>
-                                <p><a href="#">correoelectronico@gmail.com</a></p>
+                                <p><a href="#">ambroggio_sebastian@hotmail.com</a></p>
                             </div>
                             <div class="card-reveal left-align">
                                 <span class="card-title grey-text text-darken-4">+ información<i
@@ -369,8 +403,8 @@
 
                 <div class="col l6 s12">
                     <img class="hide-on-med-and-down" id="imagenFooter" src="images/nuevoLogo.png" alt="logoSEMFooter">
-                    <h5>Más de Nosotros</h5>
-                    <h5 style="color: blue;"><b>_____</b></h5>
+                    <h5 class="hide-on-med-and-down">Más de Nosotros</h5>
+                    <h5 class="hide-on-med-and-down" style="color: blue;"><b>_____</b></h5>
                     <ul>
                         <li class="listFooter">
                             <a class="grey-text text-lighten-3" target="_blank1" href="#"><img class="responsive-img"
@@ -423,13 +457,13 @@
         document.addEventListener("DOMContentLoaded", function () {
             var elems = document.querySelectorAll(".carousel");
             var instances = M.Carousel.init(elems, {
-                duration: 500,
+                duration: 200,
                 indicators: true,
-                // fullWidth: true,
+                fullWidth: true
             });
         });
     </script>
-    
+
     <!-- Tabs -->
     <script>
         var instance = M.Tabs.init(el, {
