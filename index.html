@@ -47,7 +47,7 @@
                         <li><a class="blue-text aFontSize" href="#inicio">Inicio</a></li>
                         <li><a class="blue-text aFontSize" href="#servicios">Servicios</a></li>
                         <li><a class="blue-text aFontSize" href="#nosotros">Nosotros</a></li>
-                        <li><a class="blue-text aFontSize" href="#clientes">Clientes</a></li>
+                        <!-- <li><a class="blue-text aFontSize" href="#clientes">Clientes</a></li> -->
                         <li><a class="blue-text aFontSize" href="#contactos">Contactos</a></li>
                     </ul>
                 </div>
@@ -85,9 +85,9 @@
             <blockquote class="blockquote">
                 <li><a style="padding-left: 0;" href="#nosotros">Nosotros</a></li>
             </blockquote>
-            <blockquote class="blockquote">
+            <!-- <blockquote class="blockquote">
                 <li><a style="padding-left: 0;" href="#clientes">Clientes</a></li>
-            </blockquote>
+            </blockquote> -->
             <blockquote class="blockquote">
                 <li><a style="padding-left: 0;" href="#contactos">Contactos</a></li>
             </blockquote>
@@ -364,7 +364,7 @@
         </div>
 
         <!-- CLIENTES -->
-        <br><br id="clientes">
+        <!-- <br><br id="clientes">
         <div class="container center">
             <div class="row">
                 <div class="col s12">
@@ -385,15 +385,47 @@
             <a class="carousel-item" href="#!"><img src="images/tiraEmpresas2.jpg"></a>
             <a class="carousel-item" href="#!"><img src="images/tiraEmpresas3.jpg"></a>
         </div>
-        <br>
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="images/tiraEmpresas1.jpg">
+                </li>
+                <li>
+                    <img src="images/tiraEmpresas2.jpg">
+                </li>
+                <li>
+                    <img src="images/tiraEmpresas3.jpg">
+                </li>
+            </ul>
+        </div>
+        <br> -->
     </main>
 
 
 
     <!-- FOOTER -->
-    <footer id="contactos" class="page-footer" style="background-color: #1e88e5;">
-        <br>
-        <div class="container">
+    <footer class="page-footer" style="background-color: rgb(113, 175, 255); padding-top: 0;">
+        <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg"
+            class="transition duration-300 ease-in-out delay-150">
+            <path
+                d="M 0,700 C 0,700 0,175 0,175 C 79.9794871794872,134.64358974358976 159.9589743589744,94.28717948717949 236,117 C 312.0410256410256,139.7128205128205 384.1435897435897,225.49487179487178 466,229 C 547.8564102564103,232.50512820512822 639.4666666666666,153.73333333333332 733,121 C 826.5333333333334,88.26666666666668 921.9897435897437,101.57179487179488 991,116 C 1060.0102564102563,130.42820512820512 1102.5743589743588,145.97948717948717 1173,156 C 1243.4256410256412,166.02051282051283 1341.7128205128206,170.51025641025643 1440,175 C 1440,175 1440,700 1440,700 Z"
+                stroke="none" stroke-width="0" fill="#1e88e566"
+                class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 350)">
+            </path>
+            <path
+                d="M 0,700 C 0,700 0,350 0,350 C 68.35128205128203,315.8461538461538 136.70256410256405,281.6923076923077 217,302 C 297.29743589743595,322.3076923076923 389.5410256410257,397.0769230769231 479,401 C 568.4589743589743,404.9230769230769 655.1333333333333,338.00000000000006 724,322 C 792.8666666666667,305.99999999999994 843.9256410256411,340.9230769230769 917,346 C 990.0743589743589,351.0769230769231 1085.1641025641024,326.3076923076923 1176,322 C 1266.8358974358976,317.6923076923077 1353.4179487179488,333.8461538461538 1440,350 C 1440,350 1440,700 1440,700 Z"
+                stroke="none" stroke-width="0" fill="#1e88e588"
+                class="transition-all duration-300 ease-in-out delay-150 path-1" transform="rotate(-180 720 350)">
+            </path>
+            <path
+                d="M 0,700 C 0,700 0,525 0,525 C 86.84615384615384,558.3256410256411 173.69230769230768,591.651282051282 245,586 C 316.3076923076923,580.348717948718 372.0769230769231,535.7205128205128 445,511 C 517.9230769230769,486.2794871794872 607.9999999999999,481.46666666666675 690,489 C 772.0000000000001,496.53333333333325 845.9230769230769,516.4128205128205 938,539 C 1030.076923076923,561.5871794871795 1140.3076923076922,586.8820512820513 1227,585 C 1313.6923076923078,583.1179487179487 1376.8461538461538,554.0589743589744 1440,525 C 1440,525 1440,700 1440,700 Z"
+                stroke="none" stroke-width="0" fill="#1e88e5ff"
+                class="transition-all duration-300 ease-in-out delay-150 path-2" transform="rotate(-180 720 350)">
+            </path>
+        </svg>
+
+        <!-- Contactos -->
+        <div id="contactos" class="container">
             <div class="row">
                 <div class="center container">
                     <h3 class="contactoFooter"><b>Contacto</b></h3>
@@ -482,6 +514,19 @@
         document.addEventListener("DOMContentLoaded", function () {
             var elems = document.querySelectorAll(".parallax");
             var instances = M.Parallax.init(elems);
+        });
+    </script>
+
+    <!-- Slider -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.slider');
+            var instances = M.Slider.init(elems, {
+                height: 200,
+                indicators: false,
+                duration: 400,
+                interval: 4000
+            });
         });
     </script>
 </body>
